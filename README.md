@@ -2,18 +2,14 @@ Installation
 ------------
 
 1. Copy pawn.properties to your SciTE installation directory, e.g. `C:\wscite`.
-2. Copy SciTEUser.properties to your home directory. On Windows it's `C:\Users\your_name`.
-3. Open SciTEGlobal.properties and add the following line:
-
-  ```
-  import pawn
-  ```
-  
-  This add syntax highlighting for Pawn files (*.pwn and *.inc).
+2. Copy SciTEUser.properties to your home directory. On Windows it's
+   `C:\Users\your_name` (optional).
+3. Open SciTEGlobal.properties and add `import pawn` in the end.
+   This will add syntax highlighting for Pawn files (*.pwn and *.inc).
 4. Define an environment variable `SAMP_SERVER_ROOT` that contains the full path
    to your server folder.
-5. Add `%SAMP_SERVER_ROOT%\pawno` to your `PATH` or edit
-   pawn.properties and replace `pawncc` with the full path to the compiler.
+5. Add `%SAMP_SERVER_ROOT%\pawno` to your `PATH` or edit pawn.properties and
+   replace `pawncc` with the full path to the compiler.
 
 Key bindings
 ------------
