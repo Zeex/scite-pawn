@@ -2,8 +2,7 @@ Installation
 ------------
 
 1. Copy pawn.properties to your SciTE installation directory, e.g. `C:\wscite`.
-2. Copy SciTEUser.properties to your home directory. On Windows it's usually
-   `C:\Users\your_name`.
+2. Copy SciTEUser.properties to your home directory. On Windows it's `C:\Users\your_name`.
 3. Open SciTEGlobal.properties and add the following line:
 
   ```
