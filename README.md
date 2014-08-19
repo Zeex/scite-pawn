@@ -12,7 +12,7 @@ Installation
   This add syntax highlighting for Pawn files (*.pwn and *.inc).
 4. Define an environment variable `SAMP_SERVER_ROOT` that contains the full path
    to your server folder.
-5. Add `%SAMP_SERVER_ROOT%\pawno\include` to your `PATH` or edit
+5. Add `%SAMP_SERVER_ROOT%\pawno` to your `PATH` or edit
    pawn.properties and replace `pawncc` with the full path to the compiler.
 
 Key bindings
