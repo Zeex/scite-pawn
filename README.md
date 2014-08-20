@@ -1,8 +1,9 @@
 Installation
 ------------
 
-1. Copy pawn.properties to your SciTE installation directory, e.g. `C:\wscite`.
-2. Copy SciTEUser.properties to your home directory. On Windows it's
+1. Copy pawn.properties and pawn.api to your SciTE installation directory,
+   e.g. `C:\wscite`.
+2. Copy SciTEUser.properties to your home directory. On Windows it's usually
    `C:\Users\your_name` (optional).
 3. Open SciTEGlobal.properties and add `import pawn` in the end.
    This will add syntax highlighting for Pawn files (*.pwn and *.inc).
