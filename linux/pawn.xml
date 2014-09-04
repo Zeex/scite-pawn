@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="text/x-pawn">
+    <comment>Pawn source file</comment>
+    <glob pattern="*.pwn"/>
+    <glob pattern="*.p"/>
+    <glob pattern="*.inc"/>
+    <alias type="text/x-pawn"/>
+  </mime-type>
+</mime-info>
