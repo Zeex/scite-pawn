@@ -5,10 +5,13 @@ Installation
    e.g. `C:\wscite`.
 2. Copy SciTEUser.properties to your home directory. On Windows it's usually
    `C:\Users\your_name` (optional).
-3. Open SciTEGlobal.properties and add `import pawn` in the end.
-   This will add syntax highlighting for Pawn files (*.pwn and *.inc).
-4. Define an environment variable `SAMP_SERVER_ROOT` that contains the full path
-   to your server folder.
+3. Open SciTEGlobal.properties (Tools -> Open Global Options File) and add
+   `import pawn` in the end. This will enable Pawn syntax highlighting for
+   *.pwn and *.inc files.
+4. Set `SAMP_SERVER_ROOT` environment variable to the full path to your server
+   root folder, e.g. `C:\samp-server`. On Windows this can be done via
+   Control Panel -> System -> Advanced system settings -> Advanced ->
+   Environment variables -> New...
 5. Add `%SAMP_SERVER_ROOT%\pawno` to your `PATH` or edit pawn.properties and
    replace `pawncc` with the full path to the compiler.
 
@@ -35,7 +38,7 @@ Troubleshooting
   There's probably another language file imported that uses the same file
   extension. Try commenting out the `#import *` in SciTEGlobal.properties
   and adding these instead:
-  
+
   ```
   import others
   import cpp
