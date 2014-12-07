@@ -29,6 +29,18 @@ The following key bindings are available by default:
 You can change them or create your own by editing pawn.properties (go to menu ->
 Options -> Open pawn.properties).
 
+Adding a MIME type for Pawn
+---------------------------
+
+On Linux file associations are not based on file extensions as opposed to
+Windows, so you might want to add a MIME type for Pawn files to associate
+them with SciTE.
+
+To add a MIME type for Pawn scripts on Linux do the following:
+
+1. Copy linux/pawn.xml to /usr/share/mime/packages
+2. Run update-mime-database /usr/share/mime
+3. Restart your file manager (for nautilus it's `nautilus -q`)
 
 Troubleshooting
 ---------------
